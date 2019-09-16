@@ -1,0 +1,68 @@
+.child{
+  display: none;
+}
+.containt
+{
+  margin-left: 200px; 
+}  
+
+.mat-list-item {
+  height: 15%;
+  padding: 20px;
+  /* background-color: yellow; */
+}
+
+.menu-list{
+  background-color: #3f51b5 ;
+  width: 100%;
+  text-align: center;
+  border: 1px solid white ;
+}
+.menu-list:hover{
+  background-color:rgba(255, 255, 255, 0.432); 
+}
+
+
+.button{
+  margin-left: 5rem; 
+ text-align: center;
+  }
+  
+  mat-form-field{
+    margin-left: 6rem;
+  }
+
+mat-list-item
+{
+ border: 0.1px solid;
+ border-color: black;
+ color:black!important;
+ background-color:whitesmoke;
+}
+
+mat-toolbar{
+ background-color: rgba(206, 172, 238, 0.794);
+ color: black;
+ 
+}
+
+.logo{
+  height: 9rem;
+  background-image:url('C:\Users\Lenovo\tiles-website\src\assets\monika-grabkowska-LtOcZGTzruU-unsplash.jpg');
+  width: 9.5rem;
+  background-size:100%;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 50%!important;
+  height:7%;
+  background-color:rgba(161, 112, 226, 0.705);
+  color: white;
+  text-align: center;
+}
+
+

@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+.loginform
+{
+    background-image: url('C:\Users\Lenovo\tiles-website\src\assets\kobu-agency-DFwslJRrUFw-unsplash.jpg');
+    width:100%;
+    height:750px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 100%;
+}
+.mat-raised-button{
+    margin-right: 3px;
+    background-color: rgb(243, 182, 49);
+    color:black;
+    font-family: bold;
+    opacity: 0.6;
+    transition: 0.3s;
+    cursor: pointer;
+    width: 75%;
+}
+.button:hover {opacity: 1}
+.logincomponent-Outside
+{   margin-top:50px;
+    height: 450px;
+    width: 320px;
+    border:1px solid rgb(243, 182, 49);
+    position: absolute;
+    background-color:whitesmoke;
+    
+   
+} 
+ .logincomponent-Inside
+{
+    
+    height: 330px;
+    width: 280px;
+    /* border:1px solid black;  */
+    position: relative;
+    margin-left: 40px;
+    margin-top: 10px;
+    
+}  
+p{
+    width:100%;
+}
+.table{
+    width:100%;
+}

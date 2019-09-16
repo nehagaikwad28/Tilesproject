@@ -1,0 +1,48 @@
+
+<mat-sidenav-container fullscreen>
+    <mat-sidenav #sidenav [(opened)]="opened" mode="side">
+        <div class="logo">
+        </div>
+            <mat-list>
+                <mat-list-item (click)="set(0)"  style="height: 60px"
+                >Production Form</mat-list-item>
+                <mat-list-item (click)="set(1)"  style="height: 60px"
+                >CRUMB</mat-list-item>
+                <mat-list-item (click)="set(2)"  style="height: 60px"
+                >Solution B</mat-list-item>
+                <mat-list-item (click)="set(3)"  style="height: 60px"
+                >Mould R</mat-list-item>
+                <mat-list-item>Color Master<mat-icon style="padding-left:10px" class="ml-auto">keyboard_arrow_down</mat-icon></mat-list-item>
+                <mat-list-item *ngIf=show (click)="set(4)">colorname</mat-list-item>
+                <mat-list-item *ngIf=show (click)="set(5)">colorcode</mat-list-item> 
+                 <mat-list-item (click)="set(6)"style="height: 60px">payroll</mat-list-item>
+             </mat-list>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+        <mat-toolbar>
+                
+             <button mat-icon-button (click)="opened=!opened"><mat-icon>menu
+                  </mat-icon></button>
+
+                  <div class="containt">
+                        <span><h1 style="font-size:30px;">ADIFLEX</h1></span>  
+                </div>      
+             <div class="align-self-end ml-auto" 
+             style="font-size: 16px; padding-left: 50%">
+                    
+                {{name}}<button mat-icon-button routerLink="/login">
+                    <mat-icon>logout</mat-icon></button>
+                    
+            </div>
+            
+        </mat-toolbar>
+
+        <div class="main-content">
+            <router-outlet></router-outlet>
+        </div>
+         
+      
+    </mat-sidenav-content>
+
+</mat-sidenav-container>
